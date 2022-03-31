@@ -1,0 +1,10 @@
+<h1>Where The Wild Things Are</h1>
+<h2>Wildlife Tracker</h2>
+
+<ul>
+  <% @animals.each do |animal| %>
+    <li>
+      <%= animal.common_name %>
+    </li>
+  <% end %>
+</ul>
